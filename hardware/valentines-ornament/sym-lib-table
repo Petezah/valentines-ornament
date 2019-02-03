@@ -1,0 +1,9 @@
+(sym_lib_table
+  (lib (name petezah)(type Legacy)(uri C:/Users/peter/Source/Repos/kicad-libs/petezah.lib)(options "")(descr ""))
+  (lib (name petezah-conn)(type Legacy)(uri C:/Users/peter/Source/Repos/kicad-libs/petezah-conn.lib)(options "")(descr ""))
+  (lib (name petezah-devices)(type Legacy)(uri C:/Users/peter/Source/Repos/kicad-libs/petezah-devices.lib)(options "")(descr ""))
+  (lib (name petezah-ic)(type Legacy)(uri C:/Users/peter/Source/Repos/kicad-libs/petezah-ic.lib)(options "")(descr ""))
+  (lib (name petezah-jumpers)(type Legacy)(uri C:/Users/peter/Source/Repos/kicad-libs/petezah-jumpers.lib)(options "")(descr ""))
+  (lib (name petezah-motors)(type Legacy)(uri C:/Users/peter/Source/Repos/kicad-libs/petezah-motors.lib)(options "")(descr ""))
+  (lib (name petezah-power)(type Legacy)(uri C:/Users/peter/Source/Repos/kicad-libs/petezah-power.lib)(options "")(descr ""))
+)
