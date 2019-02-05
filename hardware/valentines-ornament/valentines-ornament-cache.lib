@@ -147,6 +147,18 @@ X 2 2 200 0 100 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
+# petezah_mask-symbol
+#
+DEF petezah_mask-symbol G 0 40 Y Y 1 F N
+F0 "G" 0 100 50 H V C CNN
+F1 "petezah_mask-symbol" 0 -50 50 H V C CNN
+F2 "" 0 150 50 H I C CNN
+F3 "" 0 150 50 H I C CNN
+DRAW
+S -50 50 50 0 0 1 0 N
+ENDDRAW
+ENDDEF
+#
 # power_+3.3V
 #
 DEF power_+3.3V #PWR 0 0 Y Y 1 F P
