@@ -26,7 +26,7 @@ install : all
 	$(AVRDUDE_CMD) -U flash:w:$(TARGET).hex
 
 fuse :
-	$(AVRDUDE_CMD) -U lfuse:w:0xe4:m -U hfuse:w:0xdf:m -U efuse:w:0xff:m
+	$(AVRDUDE_CMD) -U lfuse:w:0xe2:m -U hfuse:w:0xdf:m -U efuse:w:0xff:m
 
 clean :
 	rm -f *.hex *.obj *.o

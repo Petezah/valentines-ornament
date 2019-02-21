@@ -124,6 +124,8 @@ int main(void)
 
 	sleep_until_interrupt();
 
+	int lastLed = -1;
+	int led = -1;
 	while (1)
 	{
 		if (g_numTicksUntilDisabled <= 0)
@@ -131,8 +133,15 @@ int main(void)
             sleep_until_interrupt();
         }
 
-        turnOn(rand() % LED_COUNT);
-        //_delay_ms(100/LED_COUNT);
+		led = rand() % LED_COUNT;
+		do 
+		{
+			led = rand() % LED_COUNT;
+		} while (led == lastLed);
+        turnOn(led);
+        _delay_ms(1000/LED_COUNT);
+
+		lastLed = led;
     }
 }
 
